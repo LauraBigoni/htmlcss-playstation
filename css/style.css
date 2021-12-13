@@ -7,8 +7,36 @@ body {
 
 
 /* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#sony-bar {
+    height: 40px;
+    background-color: black;
+    text-align: right;
+}
 
+#sony-bar img {
+    width: 80px;
+    position: relative;
+    top: 15%;
+    right: 0;
+}
 
+#nav-content {
+    position: fixed;
+    font-size: 18px;
+}
+
+#nav-content .logo-container img {
+    width: 80px;
+}
+
+#nav-content ul li img {
+    width: 10px;
+}
 /* Jumbotron */
 
 

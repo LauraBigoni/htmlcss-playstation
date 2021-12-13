@@ -88,12 +88,17 @@ header {
 }
 
 /* Cards */
-.cards img {
+.cards img,
+.console img {
     max-width: 100%;
     border-radius: 20px;
 }
 
 .play-5 p.cs-text-blue {
     color: #0072CE;
+}
+
+.btn-blue {
+    background-color: #0072CE;
 }
 /* Footer */

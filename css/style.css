@@ -11,7 +11,9 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
+
 #sony-bar {
     height: 40px;
     background-color: black;
@@ -31,7 +33,7 @@ header {
 }
 
 #nav-content .logo-container img {
-    width: 80px;
+    width: 60px;
 }
 
 #nav-content li img {
@@ -48,22 +50,45 @@ header {
 }
 
 .cs-bi-list {
-    font-size: 40px;
+    font-size: 30px;
     border: 1px solid lightgrey;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /* Jumbotron */
 .jumbotron {
-    margin-top: 120px;
-    width: 100%;
-    height: 800px;
-    background-image: url(../img/jumbo-bg.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
+    margin-top: 100px;
+    position: relative;
 }
 
+.jumbo-bg {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.btn-orange {
+    background-color: #CD3D0F;
+}
+
+.jumbo-article {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+}
+
+.hero-logo {
+    width: 300px;
+}
+
+.jumbo-article h1 {
+    font-size: 40px;
+}
+
+.jumbo-article p {
+    font-size: 16px;
+}
 /* Section */
 
 

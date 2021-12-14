@@ -24,9 +24,11 @@ img.solid-hover {
     transform: scale(1.1);
 }
 
+
 /**Hover on products**/
 .devices .inactive:hover {
     opacity: 1;
+    border-bottom: 2px solid #0072CE;
 }
 
 .cards img:hover {

@@ -25,7 +25,7 @@ img.solid-hover {
 }
 
 /**Hover on products**/
-.devices img.inactive:hover {
+.devices .inactive:hover {
     opacity: 1;
 }
 
@@ -193,7 +193,7 @@ h1, h2 {
     background-color: #0072CE;
 }
 
-.devices img.inactive {
+.devices .inactive {
     opacity: 0.6;
 }
 

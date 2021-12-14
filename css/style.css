@@ -72,7 +72,7 @@ body {
 }
 
 h1, h2 {
-    font-size: 40px;
+    font-size: 38px;
 }
 
 .jumbo-article p {
@@ -88,8 +88,14 @@ h1, h2 {
     border-radius: 20px;
 }
 
-.cards .border-active {
+.border-active-blue {
+    padding: 3px;
+    box-shadow: 0 0 0 2px #0072CE;
+}
 
+.border-orange:hover {
+    outline: none;
+    box-shadow: 0 0 0 2px #CD3D0F;
 }
 
 .play-5 p.cs-text-blue {

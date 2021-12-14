@@ -49,7 +49,7 @@ body {
     border-radius: 5px;
 }
 
-/* Jumbotron */
+/* First jumbotron */
 #main-jumbotron{
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
@@ -61,7 +61,6 @@ body {
 
 .jumbotron {
     margin-top: 100px;
-    position: relative;
 }
 
 .btn-orange {
@@ -83,9 +82,14 @@ h1, h2 {
 /* Cards */
 .cards img,
 .console img,
-.devices img {
+.devices img,
+.games img {
     max-width: 100%;
     border-radius: 20px;
+}
+
+.cards .border-active {
+
 }
 
 .play-5 p.cs-text-blue {
@@ -104,12 +108,27 @@ h1, h2 {
     border-bottom: 2px solid #0072CE;
 }
 
-.devices p {
+.first-devices p {
     text-align: center;
 }
 
-.devices sup {
+sup {
     font-size: 8px;
+}
+
+/**Second Jumbotron**/
+#second-jumbotron{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+/**Games**/
+.games-title, .games {
+    background-color: #1F1F1F;
 }
 
 /* Footer */

@@ -1,4 +1,4 @@
-/* Generics */
+/**Generics**/
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -7,7 +7,65 @@ body {
     cursor: pointer;
 }
 
-/* Header */
+/**Hover on Links**/
+#nav-content li :hover img {
+    display: none;
+}
+
+img.solid-hover {
+    display: none;
+}
+
+#nav-content li :hover img.solid-hover {
+    display: inline;
+}
+
+#nav-content li img.lens {
+    transition: .1s ease-in-out;
+}
+/**Hover on products**/
+
+/**Effetti hover buttons**/
+.btn {
+    border: 2px solid transparent;
+    box-shadow:0 0 0 0px transparent, 0 0 0 2px transparent;
+}
+
+.btn:hover:not(.btn-grey , .btn-white) {
+    border: 2px solid white;
+}
+
+.btn-orange:hover {
+    box-shadow: 0 0 0 2px #F26700;
+}
+
+.btn-blue:hover {
+    box-shadow: 0 0 0 2px #0072CE;
+}
+
+.btn-dark:hover {
+    box-shadow: 0 0 0 2px #000;
+}
+
+.btn-dark:hover {
+    box-shadow: 0 0 0 2px #000;
+}
+
+.btn-grey:hover {
+    color: #0072CE;
+    box-shadow:0 0 0 4px #b9b8b8;
+}
+
+.btn-white:hover {
+    border: 2px solid #00439C;
+    box-shadow: 0 0 0 2px white;
+}
+
+/**Header**/
+a {
+    color: black;
+}
+
 #sony-bar {
     height: 40px;
     background-color: black;
@@ -49,7 +107,7 @@ body {
     border-radius: 5px;
 }
 
-/* First jumbotron */
+/**First jumbotron**/
 #main-jumbotron{
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
@@ -79,7 +137,7 @@ h1, h2 {
     font-size: 16px;
 }
 
-/* Cards */
+/**Cards**/
 .cards img,
 .console img,
 .devices img,
@@ -154,7 +212,7 @@ sup {
 
 .btn-grey {
     background-color: #D9DADC;
-    width: 200px;
+    width: 210px;
 }
 
 .discounted-games img,
@@ -179,10 +237,10 @@ sup {
 
 .btn-white {
     background-color: #fff;
-    width: 205px;
+    width: 220px;
 }
 
-/* Footer */
+/**Footer**/
 #menu-bottom {
     background-color: #00439C;
 }

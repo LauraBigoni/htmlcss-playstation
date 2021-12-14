@@ -4,13 +4,6 @@ body {
 }
 
 /* Header */
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
-
 #sony-bar {
     height: 40px;
     background-color: black;

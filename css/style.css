@@ -20,10 +20,42 @@ img.solid-hover {
     display: inline;
 }
 
-#nav-content li img.lens {
-    transition: .1s ease-in-out;
+#nav-content li img.lens:hover {
+    transform: scale(1.1);
 }
+
 /**Hover on products**/
+.devices img.inactive:hover {
+    opacity: 1;
+}
+
+.devices img.inactive:hover p {
+    color: black;
+}
+
+.cards img:hover {
+    animation: swing 1s ease-in-out;
+}
+
+.games img:hover {
+    animation: swing 1s ease-in-out;
+}
+
+@keyframes swing
+{
+    0%
+    {
+        transform: translateY(0px);
+    }
+    50% 
+    {
+        transform: translateY(-20px);
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+}
 
 /**Effetti hover buttons**/
 .btn {
@@ -31,11 +63,12 @@ img.solid-hover {
     box-shadow:0 0 0 0px transparent, 0 0 0 2px transparent;
 }
 
-.btn:hover:not(.btn-grey , .btn-white) {
+.btn:hover:not(.btn-grey , .btn-white , .btn-orange) {
     border: 2px solid white;
 }
 
 .btn-orange:hover {
+    border-color:black;
     box-shadow: 0 0 0 2px #F26700;
 }
 

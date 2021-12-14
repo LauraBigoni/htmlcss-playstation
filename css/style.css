@@ -29,10 +29,6 @@ img.solid-hover {
     opacity: 1;
 }
 
-.devices img.inactive:hover p {
-    color: black;
-}
-
 .cards img:hover {
     animation: swing 1s ease-in-out;
 }
@@ -69,7 +65,7 @@ img.solid-hover {
 
 .btn-orange:hover {
     border-color:black;
-    box-shadow: 0 0 0 2px #F26700;
+    box-shadow: 0 0 0 2px #da5e00;
 }
 
 .btn-blue:hover {

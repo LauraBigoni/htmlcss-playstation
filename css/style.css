@@ -98,7 +98,7 @@ h1, h2 {
     box-shadow: 0 0 0 2px #CD3D0F;
 }
 
-.play-5 p.cs-text-blue {
+.cs-text-blue {
     color: #0072CE;
 }
 
@@ -135,6 +135,24 @@ sup {
 /**Games**/
 .games-title, .games {
     background-color: #1F1F1F;
+}
+
+/**Third Jumbotron**/
+#third-jumbotron{
+    background-color: #BEBCBB;
+    min-height: 300px;
+}
+
+.ps-plus-banner {
+    width: 100%;
+}
+
+.ps-plus-logo {
+    width: 60%;
+}
+
+.btn-grey {
+    background-color: #D9DADC;
 }
 
 /* Footer */

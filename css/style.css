@@ -183,3 +183,18 @@ sup {
 }
 
 /* Footer */
+#menu-bottom {
+    background-color: #00439C;
+}
+
+img.bottom-logo {
+    width: 110px;
+}
+
+img.region {
+    width: 20px;
+}
+
+img.sie-logo {
+    width: 150px;
+}

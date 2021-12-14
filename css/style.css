@@ -186,9 +186,12 @@ sup {
 #menu-bottom {
     background-color: #00439C;
 }
-
+#menu-bottom ul li {
+    line-height: 30px;
+    font-size: 14px;
+}
 img.bottom-logo {
-    width: 110px;
+    width: 100px;
 }
 
 img.region {

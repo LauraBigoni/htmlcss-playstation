@@ -55,11 +55,11 @@ body {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    padding-top: 250px;
+    padding-top: 350px;
     padding-bottom: 50px;
 }
 
-.jumbotron {
+body {
     margin-top: 100px;
 }
 
@@ -155,6 +155,31 @@ sup {
 .btn-grey {
     background-color: #D9DADC;
     width: 200px;
+}
+
+.discounted-games img,
+.social-media img {
+    max-width: 100%;
+}
+
+/**Blue Jumbotron**/
+#blue-jumbotron{
+    background-color: #161C3B;
+    min-height: 300px;
+}
+
+.ps-now-banner {
+    width: 100%;
+    height: 100%;
+}
+
+.ps-now-logo {
+    width: 70%;
+}
+
+.btn-white {
+    background-color: #fff;
+    width: 205px;
 }
 
 /* Footer */

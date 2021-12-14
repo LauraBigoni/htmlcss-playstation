@@ -64,12 +64,8 @@
         </nav>
     </header>
     <!-- jumbotron -->
-    <section class="jumbotron container-fluid p-0">
-        <div class="row">
-            <div class="col p-0">
-                <img class="jumbo-bg" src="img/jumbo-bg.png" alt="jumbotron background">
-            </div>
-        </div>
+    <section class="jumbotron container-fluid" id="main-jumbotron">
+      
         <div class="row jumbo-article">
             <div class="col-11 col-lg-5 text-white px-sm-5">
                 <img class="hero-logo" src="img/returnal-hero-banner-logo.png" alt="">
@@ -84,15 +80,15 @@
     <!-- cards -->
     <section class="cards container-fluid py-5">
         <div class="row px-sm-4 gy-4">
-            <div class="col-6 col-sm-4 col-lg-2"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-            <div class="col-6 col-sm-4 col-lg-2"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
-            <div class="col-6 col-sm-4 col-lg-2"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-            <div class="col-6 col-sm-4 col-lg-2"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
-            <div class="col-6 col-sm-4 col-lg-2"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
-            <div class="col-6 col-sm-4 col-lg-2"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+            <div class="col-6 col-sm-4 col-lg-2"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal listing"></div>
+            <div class="col-6 col-sm-4 col-lg-2"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="returnal listing"></div>
+            <div class="col-6 col-sm-4 col-lg-2"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal listing"></div>
+            <div class="col-6 col-sm-4 col-lg-2"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="returnal listing"></div>
+            <div class="col-6 col-sm-4 col-lg-2"><img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal listing"></div>
+            <div class="col-6 col-sm-4 col-lg-2"><img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="returnal listing"></div>
         </div>
     </section>
-    <section class="container-fluid play-5 text-center py-5">
+    <section class="container-fluid play-5 text-center py-4">
         <div class="row">
             <div class="col">
                 <p class="text-uppercase m-0 cs-text-blue fw-bold">play has no limits</p>
@@ -103,15 +99,39 @@
         </div>
     </section>
     <section class="container-fluid console py-5">
-        <div class="row">
-            <div class="col-6">
+        <div class="row flex-column flex-md-row align-items-center">
+            <div class="col col-md-6 p-sm-5">
                 <h2 class="fw-bolder">Console Playstation 5</h2>
                 <p class="text-secondary fw-bold fs-5">Sperimenta la nuova generazione di incredibili giochi PlayStation
                 </p>
                 <a class="rounded-pill btn btn-blue text-white" href="#">Maggiori informazioni</a>
             </div>
-            <div class="col-6">
+            <div class="col col-md-6">
                 <img src="img/playstation-5-thumb.png" alt="playstation 5 image">
+            </div>
+        </div>
+    </section>
+    <section class="devices container-fluid py-5">
+        <div class="row px-2 px-sm-4 gy-4 justify-content-md-evenly">
+            <div class="col-4 col-md-2 active">
+                <img class="clickable" src="img/playstation-5-thumb.png" alt="console ps5">
+                <p class="fw-bold pt-2">Console PS5</p>
+            </div>
+            <div class="col-4 col-md-2">
+                <img class="clickable inactive" src="img/joypad-thumb.png" alt="controller wireless dualsense">
+                <p class="fw-bold text-secondary pt-2">Controller wireless DualSense<sup>TM</sup></p>
+            </div>
+            <div class="col-4 col-md-2">
+                <img class="clickable inactive" src="img/headset-thumb.png" alt="cuffie wireless con microfono pulse 3">
+                <p class="fw-bold text-secondary pt-2">Cuffie wireless con microfono PULSE 3<sup>TM</sup></p>
+            </div>
+            <div class="col-4 col-md-2">
+                <img class="clickable inactive" src="img/remote-thumb.png" alt="telecomando media">
+                <p class="fw-bold text-secondary pt-2">Telecomando Media</p>
+            </div>
+            <div class="col-4 col-md-2">
+                <img class="clickable inactive" src="img/camera-thumb.jpg" alt="telecamera hd">
+                <p class="fw-bold text-secondary pt-2">Telecamera HD</p>
             </div>
         </div>
     </section>
